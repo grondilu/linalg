@@ -1,0 +1,8 @@
+{
+    "name" : "LinAlg",
+    "version" : "0.1.0",
+    "description" : "Basic Linear Algebra using subtypes.",
+    "author" : "Lucien Grondin",
+    "depends" : [ ],
+    "source-url" : "git://github.com/grondilu/linalg.git"
+}
