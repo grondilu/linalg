@@ -18,13 +18,18 @@ linear algebra a full use of PDL should be prefered.
 
     say $a * $b;    # error:  wrong dimensions
 
+    # hermitian conjugate is done with C<*> as a postfix operator.
     say $a*;        # [ [1],
                         [0],
                         [0] ]
+
+    # Matrix or vector multiplication is done with C<*> as an infix operator.
+    # Remember to always surround infix operators with a whitespace.
     say $a* * $b;   # [ [0, 1, 0]
                     #   [0, 0, 0]
                     #   [0, 0, 0] ]
 
+    # scalar product is a special case of matrix multiplication
     say $a * $b*;   #  0
 
     say [1, 1, 1] * [1, 1, 1]*;   # 1.4142135623731
