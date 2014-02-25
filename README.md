@@ -20,8 +20,8 @@ linear algebra a full use of PDL should be prefered.
 
     # hermitian conjugate is done with C<*> as a postfix operator.
     say $a*;        # [ [1],
-                        [0],
-                        [0] ]
+                    #   [0],
+                    #   [0] ]
 
     # Matrix or vector multiplication is done with C<*> as an infix operator.
     # Remember to always surround infix operators with a whitespace.
